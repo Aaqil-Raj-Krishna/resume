@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-family: 'Josefin Sans';
+}
+
+body {
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#888 50%, salmon 50%);
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section+section {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.Resume {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: white;
+    padding: 3rem;
+    margin: auto;
+    max-width: 1000px;
+
+}
+
+.Profile {
+    text-align: center;
+}
+
+.Profile img {
+    border-radius: 9999px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.Profile p {
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.Contact ul {
+    margin-top: -2rem;
+}
+
+.Contact li {
+    text-align: right;
+    text-transform: uppercase;
+    color: rgb(136, 136, 136);
+    padding: 1rem;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    font-size: 0.8rem;
+}
+
+.Skills>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.Event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.Event+.Event {
+    padding-top: 1rem;
+}
+
+.Content {
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.Content>h3+p {
+    margin-bottom: 1rem;
+    color: #333;
+}
