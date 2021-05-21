@@ -5,41 +5,34 @@
 }
 
 html {
-    color: #333;
+    color: #222;
     font-family: 'Josefin Sans';
 }
 
 body {
-    padding: 2rem 2.5rem;
-    background: linear-gradient(#888 50%, salmon 50%);
+    background-color: #e3e3e3;
 }
 
 h1 {
     font-size: 2rem;
-    text-transform: uppercase;
+    padding: 0.5rem 0;
 }
 
 h2 {
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    border-top: 1px solid #888;
-    border-bottom: 1px solid #888;
-    padding: 0.75rem 0;
-    margin-bottom: 2rem;
+    padding: 1.5rem 0 0.5rem;
 }
 
 h3 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: salmon;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
 }
 
-p {
-    line-height: 1.5;
+hr {
+    margin: 1rem;
 }
 
-section+section {
-    margin-top: 1rem;
+ul {
+    list-style: none;
 }
 
 a {
@@ -47,77 +40,77 @@ a {
     color: inherit;
 }
 
-ul {
-    list-style: none;
+li {
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
-.Resume {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    grid-gap: 4rem;
-    background-color: white;
-    padding: 3rem;
-    margin: auto;
-    max-width: 1000px;
-
-}
-
-.Profile {
-    text-align: center;
-}
-
-.Profile img {
-    border-radius: 9999px;
-    width: 15rem;
-    height: 15rem;
-}
-
-.Profile p {
-    color: #888;
-    margin-bottom: 1rem;
+p {
+    padding-bottom: 0.5rem;
     font-size: 1.25rem;
 }
 
-.Contact ul {
-    margin-top: -2rem;
-}
-
-.Contact li {
-    text-align: right;
-    text-transform: uppercase;
-    color: rgb(136, 136, 136);
-    padding: 1rem;
-    border-top: 1px solid #888;
-    border-bottom: 1px solid #888;
-    font-size: 0.8rem;
-}
-
-.Skills>ul {
+.resume {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-template-columns: 33% 67%;
+    grid-gap: 3rem;
+    padding: 1.5rem;
+    padding-right: 3rem;
+    margin: auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+
 }
 
-.Event {
-    display: grid;
-    grid-template-columns: 5ch 1fr;
+.left_column {
+    background-color: #1b6392;
+    color: #ffffff;
+    padding: 3rem;
+    padding-left: 4rem;
 }
 
-.Event+.Event {
-    padding-top: 1rem;
+.left_column h2 {
+    font-size: 1.4rem;
 }
 
-.Content {
-    border-left: 1px solid #888;
-    padding-left: 1rem;
-    margin-left: 1rem;
+.right_column {
+    padding: 2rem;
+    padding-right: 5rem;
+    padding-left: 0;
 }
 
-.Content>h3+p {
-    margin-bottom: 1rem;
-    color: #333;
+.right_column h2 {
+    color: #1b6392;
+    font-size: 1.5rem;
 }
 
-.test>p {
+.introduction {
+    text-align: center;
+}
+
+.introduction img {
+    border-radius: 1000rem;
+    background-color: #ffffff;
+    padding: 0.3rem;
+}
+
+.mode ul {
+    font-style: italic;
     color: red;
+}
+
+.work li {
+    list-style-type: disc;
+}
+
+.experience p {
+    color: grey;
+}
+
+.education p {
+    color: grey;
+}
+
+.certificates {
+    font-weight: bold;
 }
