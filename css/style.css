@@ -94,9 +94,24 @@ p {
     padding: 0.3rem;
 }
 
-.mode ul {
-    font-style: italic;
-    color: red;
+.profile h2 {
+    display: inline-block;
+}
+
+.experience h2 {
+    display: inline-block;
+}
+
+.education h2 {
+    display: inline-block;
+}
+
+.certificates h2 {
+    display: inline-block;
+}
+
+.proud h2 {
+    display: inline-block;
 }
 
 .work li {
