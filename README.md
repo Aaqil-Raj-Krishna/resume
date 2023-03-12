@@ -2,6 +2,10 @@
 
 This project is a simple resume created using HTML and CSS. The purpose of this project is to showcase the developer's skills in front-end web development and design. The project is fully responsive and optimized for all screen sizes, from mobile devices to desktop computers.
 
+## Preview
+
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/75661314/224561533-328c48a9-1eab-4f91-be46-986b233d96ec.png">
+
 ## Deployment
 
 The deployed site for this project can be found at <https://aaqilrk.github.io/resume/>.
